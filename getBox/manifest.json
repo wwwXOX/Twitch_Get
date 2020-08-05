@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "MORRIS_JIAJIATYR",
+  "description": "Auto get the point box.",
+  "version": "1.0.6",
+  "background": {
+	"scripts":["back-1.js"],
+	"persistent": false
+  },
+  "icons": {
+    "16": "getJewelry.png",
+    "48": "getJewelry.png",
+    "128": "getJewelry.png"
+  },
+  "browser_action": {
+    "default_icon": "getJewelry.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": [
+        "execute.js","back-1.js"
+      ]
+    }
+  ]
+}
