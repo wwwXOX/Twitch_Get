@@ -14,4 +14,4 @@ Click the figure that you want to get at the channel you want.
 Remember : The Stream you have to play, you can change the low video resolution.
 ## Notice ##
 
-By jiajia. 2020
+By jiajia. 2020-03
